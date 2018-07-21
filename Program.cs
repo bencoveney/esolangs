@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace esolangs
 {
@@ -6,7 +7,7 @@ namespace esolangs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(File.ReadAllText("./input.txt"));
         }
     }
 }
